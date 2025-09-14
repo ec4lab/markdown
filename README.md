@@ -182,14 +182,14 @@ Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.c
 
 # 🧮 Ecuaciones y matrices
 ## Con corchetes
-\$$  
-R_1^0 =  
-\begin{bmatrix}  
-x_1.x_0 & y_1.x_0 & z_1.x_0 \\\  
-x_1.y_0 & y_1.y_0 & z_1.y_0 \\\  
-x_1.z_0 & y_1.z_0 & z_1.z_0 \\\  
-\end{bmatrix}  
-\$$
+-\$$  
+-R_1^0 =  
+-\begin{bmatrix}  
+-x_1.x_0 & y_1.x_0 & z_1.x_0 \\\  
+-x_1.y_0 & y_1.y_0 & z_1.y_0 \\\  
+-x_1.z_0 & y_1.z_0 & z_1.z_0 \\\  
+-\end{bmatrix}  
+-\$$
 
 $$
 R_1^0 =
