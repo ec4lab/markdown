@@ -267,10 +267,10 @@ En donde x<sub>0</sub>,y<sub>0</sub> y z<sub>0</sub>, son los vectores unitarios
 
 ## Sub índices II
 ```
-Podemos Calcular $PB_{(X,Y,Z)}$ si pasamos el $PA_{(X,Y,Z)}$ por la matriz de rotación. (producto escalar). Y viceversa, por ser un giro de 180º, no plicaría igual si θ ≠ 180
+Podemos Calcular $PB_{(X,Y,Z)}$ si pasamos el $PA_{(X,Y,Z)}$ por la matriz de rotación. (producto escalar). Y viceversa, por ser un giro de 180º, no aplicaría igual si θ ≠ 180
 ```
 
-Podemos Calcular $PB_{(X,Y,Z)}$ si pasamos el $PA_{(X,Y,Z)}$ por la matriz de rotación. (producto escalar). Y viceversa, por ser un giro de 180º, no plicaría igual si θ ≠ 180
+Podemos Calcular $PB_{(X,Y,Z)}$ si pasamos el $PA_{(X,Y,Z)}$ por la matriz de rotación. (producto escalar). Y viceversa, por ser un giro de 180º, no aplicaría igual si θ ≠ 180
 
 ## Igualdades
 ```
@@ -329,10 +329,13 @@ En algunos editores md es posible poner las ecuaciones de arriba en una sola lí
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:
 
 $$R_{z,θ}.R_{y,Φ}=R'$$
+<center>R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'</center>
 ```
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:  
 
 $$R_{z,θ}.R_{y,Φ}=R'$$
+<center>R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'</center>
+
 
 ## Fracciones 
 $$1/2 = 8/\cos\theta$$
