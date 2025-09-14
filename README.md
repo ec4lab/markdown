@@ -1,4 +1,4 @@
-Hola!, esto es un compilado de ejemplos básicos para ecribir en markdow, la forma más sencilla que encontramos hasta ahora es utilizando VSCode (por las dudas VSCode no nos paga nada, igual mal no estaría 😉 ), en donde podemos ver el texto raw y el final de manera simultánea.
+Hola!, esto es un compilado de ejemplos básicos para ecribir en markdown, la forma más sencilla que encontramos hasta ahora es utilizando VSCode (por las dudas VSCode no nos paga nada, igual mal no estaría 😉 ), en donde podemos ver el texto raw y el final de manera simultánea.
 
 ![Vista Previa](imagenes/markdown_vistaprevia.png "Se puede activar la vista previa con el incono de lupa sobre el archivo que estamos procesando")
 
