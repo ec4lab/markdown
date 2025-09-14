@@ -47,19 +47,37 @@ Se puede destacar `parte de una oración` poniendola entre " \` "
 (acento grave o invertido)
 
 # 🖍️ Resaltar Texto
-Para resaltar el texto utilizar * a cada lado.  
 ```
-2 veces a cada lado para texto en **negrita**  
+**Negrita**  
+*Cursiva*  
+***Negrita y cursiva***  
+<del>tachado</del>  
+~~tachado~~  
+<ins>subrayado</ins>  
+a<sub>subindice</sub>  
+a<sup>superindice</sup>  
+<samp>Monospace</samp>  
+<table><tr><td>Recuadro</td></tr></table>  
+<kbd>Boton</kbd>    
+
+<code>Resaltado</code>  
+`Resaltado`
 ```
-2 veces a cada lado para texto en **negrita**  
-```
-1 vez a cada lado para texto en *cursiva*  
-```
-1 vez a cada lado para texto en *cursiva*  
-```
-3 veces a cada lado para texto en ***negrita y cursiva***  
-```
-3 veces a cada lado para texto en ***negrita y cursiva***  
+
+**Negrita**  
+*Cursiva*  
+***Negrita y cursiva***  
+<del>tachado</del>  
+~~tachado~~  
+<ins>subrayado</ins>  
+a<sub>subindice</sub>  
+a<sup>superindice</sup>  
+<samp>Monospace</samp>  
+<table><tr><td>Recuadro</td></tr></table>  
+<kbd>Boton</kbd>    
+
+<code>Resaltado</code>  
+`Resaltado`
 
 # 🎗️ Citas
 Para citas se utiliza ">" al inicio de la cita  
@@ -70,6 +88,21 @@ Para citas se utiliza ">" al inicio de la cita
 > Texto citado de alguien  
 > muy famoso
 
+# ⤵️ Texto Desplegable
+
+```
+<details>
+    <summary>Texto Desplegable</summary>
+    Texto que se despliega con el click
+</details>
+```
+
+<details>
+    <summary>Texto Desplegable</summary>
+    Texto que se despliega con el click
+</details>
+
+<br/>
 
 # 🖼️ Imágenes
 * Se tiene que indicar el texto que aparece si la imagen no se encuentra,  
@@ -200,11 +233,28 @@ solo hay que iniciar la oración con " * "
 * item 1  
 * item 2  
 * item 3
+    * item 3.1
+        * item 3.1.b
 ```
 
 * item 1
 * item 2
 * item 3
+    * item 3.1
+        * item 3.1.b
+
+## Listas de tareas
+```
+- [x] Redactar README.md
+- [ ] Actualizar Links
+- [ ] Hacer BackUps
+- [ ] \(Opcional) Renombrar imágenes
+```
+
+- [x] Redactar README.md
+- [ ] Actualizar Links
+- [ ] Hacer BackUps
+- [ ] \(Opcional) Renombrar imágenes
 
 # 📫 Hypervínculos
 
