@@ -1,14 +1,14 @@
-Hola!, esto es un compilado de ejemplos básicos para ecribir en markdown, la forma más sencilla que encontramos hasta ahora es utilizando VSCode (por las dudas VSCode no nos paga nada, igual mal no estaría 😉 ), en donde podemos ver el texto raw y el final de manera simultánea.
+Hola!, esto es un compilado de ejemplos básicos para escribir en markdown, la forma más sencilla que encontramos hasta ahora es utilizando VSCode (por las dudas VSCode no nos paga nada, igual mal no estaría 😉 ), en donde podemos ver el texto raw y el final de manera simultánea.
 
-![Vista Previa](imagenes/markdown_vistaprevia.png "Se puede activar la vista previa con el incono de lupa sobre el archivo que estamos procesando")
+![Vista Previa](imagenes/markdown_vistaprevia.png "Se puede activar la vista previa con el icono de lupa sobre el archivo que estamos procesando")
 
-A lo largo del documento, indicaremos el texto sin formato y a continuación la salida para tener la referencia, puedes también desargar el README.md y analizarlo directamente en tu VSCode. 
+A lo largo del documento, indicaremos el texto sin formato y a continuación la salida para tener la referencia, puedes también descargar el README.md y analizarlo directamente en tu VSCode. 
 Cualquier mejora o formato que se nos haya pasado por algo no dudes en contactarnos.
 
 
 
 # 🧰 Títulos
-los títulos se generar colocando '#' delante del renglón, a medida que agreges más '#' iras incrementando el nivel del subtítulo
+los títulos se generar colocando '#' delante del renglón, a medida que se agreguen más '#' se va incrementando el nivel del subtítulo
 ```
 # Esto es un título de 1er nivel (1 #)  
 ```
@@ -40,10 +40,10 @@ Si queremos que dos líneas queden juntas hay que dejar 2 espacios al final de l
 y luego apretar enter.
 
 ```
-Se puede destacar `parte de una oración` poniendola entre " \` "  
+Se puede destacar `parte de una oración` poniéndola entre " \` "  
 (acento grave o invertido)
 ```
-Se puede destacar `parte de una oración` poniendola entre " \` "  
+Se puede destacar `parte de una oración` poniéndola entre " \` "  
 (acento grave o invertido)
 
 # 🖍️ Resaltar Texto
@@ -54,11 +54,11 @@ Se puede destacar `parte de una oración` poniendola entre " \` "
 <del>tachado</del>  
 ~~tachado~~  
 <ins>subrayado</ins>  
-a<sub>subindice</sub>  
-a<sup>superindice</sup>  
+a<sub>subíndice</sub>  
+a<sup>super índice</sup>  
 <samp>Monospace</samp>  
 <table><tr><td>Recuadro</td></tr></table>  
-<kbd>Boton</kbd>    
+<kbd>Botón</kbd>    
 
 <code>Resaltado</code>  
 `Resaltado`
@@ -70,13 +70,13 @@ a<sup>superindice</sup>
 <del>tachado</del>  
 ~~tachado~~  
 <ins>subrayado</ins>  
-a<sub>subindice</sub>  
-a<sup>superindice</sup>  
+a<sub>sub indice</sub>  
+a<sup>super indice</sup>  
 <samp>Monospace</samp>  
 
 <table><tr><td>Recuadro</td></tr></table> 
 
-<kbd>Boton</kbd>    
+<kbd>Botón</kbd>    
 
 <code>Resaltado</code>  
 `Resaltado`
@@ -180,7 +180,7 @@ Para citas se utiliza ">" al inicio de la cita
 [![Robot GitHub](imagenes/gemini_robotPC.jpg "Visita nuestro GitHub!")](https://github.com/ec4lab/LandPAge)  
 > Imagen generada por un modelo de IA de Google 
 
-## Se puede dar forlamto con `html`
+## Se puede dar formato con `html`
 
 ```
 <p align="center">
@@ -235,14 +235,14 @@ Podemos indicar el tipo de código inmediatamente después de los 3 " `" superio
 #Nos movemos a la carpeta del proyecto  
 cd C:\Users\VsCode\Programas\ejemplo_git  
 #Creamos el entorno virtual ".venv" técnicamente podría tomar   
-cualquier nombre, pero es una buena práctica utlizar .venv  
+cualquier nombre, pero es una buena práctica utilizar .venv  
 python -m venv .venv #en Ubuntu  
 \```
 
 ```bash
 #Nos movemos a la carpeta del proyecto
 cd C:\Users\VsCode\Programas\ejemplo_git
-#Creamos el entorno virtual ".venv" técnicamente podría tomar cualquier nombre, pero es una buena práctica utlizar .venv
+#Creamos el entorno virtual ".venv" técnicamente podría tomar cualquier nombre, pero es una buena práctica utilizar .venv
 python -m venv .venv #en Ubuntu
 ```
 ### Código python:
@@ -265,18 +265,18 @@ Se hacen poniendo " | "
 ```
 |Licencia|Qué permite|Ideal si...|  
 |---|---|---|  
-|MIT|Cualquiera puede usar/modificar/comercializar|Querés algo libre y flexible|  
-|GPLv3|Libre, pero obliga a compartir mejoras|Querés que las mejoras sean públicas|  
+|MIT|Cualquiera puede usar/modificar/comercializar|Algo libre y flexible|  
+|GPLv3|Libre, pero obliga a compartir mejoras|Las mejoras sean públicas|  
 |Apache 2.0|Como MIT, pero protege contra patentes|Proyecto serio o empresarial|  
-|Sin licencia|Legalmente, nadie puede usar tu código|Lo dejás para vos|  
+|Sin licencia|Legalmente, nadie puede usar tu código|Lo dejas para vos|  
 ```
 
 |Licencia|Qué permite|Ideal si...|  
 |---|---|---|  
-|MIT|Cualquiera puede usar/modificar/comercializar|Querés algo libre y flexible|  
-|GPLv3|Libre, pero obliga a compartir mejoras|Querés que las mejoras sean públicas|  
+|MIT|Cualquiera puede usar/modificar/comercializar|Algo libre y flexible|  
+|GPLv3|Libre, pero obliga a compartir mejoras|Las mejoras sean públicas|  
 |Apache 2.0|Como MIT, pero protege contra patentes|Proyecto serio o empresarial|  
-|Sin licencia|Legalmente, nadie puede usar tu código|Lo dejás para vos|  
+|Sin licencia|Legalmente, nadie puede usar tu código|Lo dejas para vos|  
 
 ### Se puede alinear el texto dentro de cada columna colocando " : " en la fila de las líneas:  
 ```
@@ -319,22 +319,6 @@ solo hay que iniciar la oración con " * "
 - [ ] Actualizar Links
 - [ ] Hacer BackUps
 - [ ] \(Opcional) Renombrar imágenes
-
-# 📫 Hypervínculos
-
-```
-Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com  
-Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)
-
-mas ejemplos:[Github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110
-```
-
-Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com  
-Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)
-
-mas ejemplos:[Github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110)
-
-
 
 # 🧮 Ecuaciones y matrices
 
@@ -466,8 +450,11 @@ R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'
 
 
 ## Fracciones 
+```
 $$1/2 = 8/\cos\theta$$
-## Raices
+```
+$$1/2 = 8/\cos\theta$$
+## Raíces
 ```
 $$\sqrt{2-2i}$$
 ```
@@ -478,6 +465,21 @@ $$^3\sqrt{2-2i}$$
 ```
 $$^3\sqrt{2-2i}$$
 
+# 📫 Hipervínculos
+
+```
+Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com  
+Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)
+
+mas ejemplos:[Github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110
+```
+
+Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com  
+Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)
+
+mas ejemplos: [github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110)
+
+Emoticonos: [emojikeyboard.top](https://emojikeyboard.top/es/)
 
 # 📝 Licencia
 
