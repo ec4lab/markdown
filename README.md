@@ -73,7 +73,9 @@ a<sup>superindice</sup>
 a<sub>subindice</sub>  
 a<sup>superindice</sup>  
 <samp>Monospace</samp>  
-<table><tr><td>Recuadro</td></tr></table>  
+
+<table><tr><td>Recuadro</td></tr></table> 
+
 <kbd>Boton</kbd>    
 
 <code>Resaltado</code>  
@@ -101,9 +103,22 @@ Para citas se utiliza ">" al inicio de la cita
     <summary>Texto Desplegable</summary>
     Texto que se despliega con el click
 </details>
+<br/>
+<details>
+  <summary>
+  ## Texto Desplegable
+  </summary>
+  Texto que se despliega con el click
+</details>
 
 <br/>
+<details>
+  <summary><h2>Texto Desplegable</h2></summary>
 
+  Texto que se despliega con el click
+
+</details>
+<br/>
 # 🖼️ Imágenes
 * Se tiene que indicar el texto que aparece si la imagen no se encuentra,  
 * el link a la imagen, (puede ser dentro del repo o web) 
