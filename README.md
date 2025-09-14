@@ -330,7 +330,7 @@ El orden es importante si alteramos el orden de las rotaciones, la matriz result
 $$ R_{z,θ}.R_{y,Φ} = R' $$
 ```
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:
-$$ R_{z,θ}.R_{y,Φ} = R' $$
+$$ R_{(z,θ)}.R_{(y,Φ)} = R' $$
 
 ## Fracciones 
 $$1/2 = 8/\cos\theta$$
