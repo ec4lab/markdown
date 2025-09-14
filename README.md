@@ -35,7 +35,7 @@ Se puede destacar `parte de una oración` poniendola entre " \` "
 # 🖍️ Resaltar Texto
 Para resaltar el texto utilizar * a cada lado.  
 
-2 veces a cada lado para texto en \**negrita**  
+2 veces a cada lado para texto en \*\*negrita**  
 2 veces a cada lado para texto en **negrita**  
 1 vez a cada lado para texto en \*cursiva*  
 1 vez a cada lado para texto en *cursiva*  
@@ -185,9 +185,9 @@ Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.c
 \$$  
 R_1^0 =  
 \begin{bmatrix}  
-x_1.x_0 & y_1.x_0 & z_1.x_0 \\  
-x_1.y_0 & y_1.y_0 & z_1.y_0 \\  
-x_1.z_0 & y_1.z_0 & z_1.z_0 \\  
+x_1.x_0 & y_1.x_0 & z_1.x_0 \\\  
+x_1.y_0 & y_1.y_0 & z_1.y_0 \\\  
+x_1.z_0 & y_1.z_0 & z_1.z_0 \\\  
 \end{bmatrix}  
 \$$
 
