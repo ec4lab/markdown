@@ -326,15 +326,22 @@ $$
 En algunos editores md es posible poner las ecuaciones de arriba en una sola línea reemplazando `$$=$$`por `=`, pero en el caso de GitHub no lo reconoce y es necesario colocar la igualdad debajo.
 
 ```
-El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:
+El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:  
 
 $$R_{z,θ}.R_{y,Φ}=R'$$
-<center>R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'</center>
+
+<p align="center">
+R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'
+</p>
 ```
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:  
 
 $$R_{z,θ}.R_{y,Φ}=R'$$
-<center>R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'</center>
+
+<p align="center">
+R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'
+</p>
+
 
 
 ## Fracciones 
