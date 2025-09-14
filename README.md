@@ -209,11 +209,18 @@ solo hay que iniciar la oración con " * "
 # 📫 Hypervínculos
 
 ```
+Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com  
 Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)
+
+mas ejemplos:[Github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110
 ```
 
 Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com  
 Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)
+
+mas ejemplos:[Github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110)
+
+
 
 # 🧮 Ecuaciones y matrices
 
