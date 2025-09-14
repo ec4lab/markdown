@@ -104,19 +104,52 @@ Para citas se utiliza ">" al inicio de la cita
     Texto que se despliega con el click
 </details>
 <br/>
+
+```
 <details>
-  <summary>
-  ## Texto Desplegable
-  </summary>
-  Texto que se despliega con el click
+  <summary><h2>Texto Desplegable con formatos</h2></summary>
+  Se pueden hacer cosas pero ya hay que programar en html
+  <br/><h3>Como por ejemplo tablas</h2>
+  <table>
+  <tr>
+    <th>LETRA</th>
+    <th>NÚMERO</th>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>2</td>
+  </tr>
+</table>
+<h3>O imágenes</h2>
+<img src="imagenes/gemini_robotLibro.jpg" alt="Ejemplo Imagen" width="100">
 </details>
-
 <br/>
+```
+
 <details>
-  <summary><h2>Texto Desplegable</h2></summary>
-
-  Texto que se despliega con el click
-
+  <summary><h2>Texto Desplegable con formatos</h2></summary>
+  Se pueden hacer cosas pero ya hay que programar en html
+  <br/><h3>Como por ejemplo tablas</h2>
+  <table>
+  <tr>
+    <th>LETRA</th>
+    <th>NÚMERO</th>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>2</td>
+  </tr>
+</table>
+<h3>O imágenes</h2>
+<img src="imagenes/gemini_robotLibro.jpg" alt="Ejemplo Imagen" width="100">
 </details>
 <br/>
 # 🖼️ Imágenes
@@ -127,6 +160,7 @@ Para citas se utiliza ">" al inicio de la cita
 ![Robot aprendiendo markdown](imagenes/gemini_robotLibro.jpg "Esto aparece si pasas el mouse por arriba de la imagen")  
 > Imagen generada por un modelo de IA de Google 
 ```
+
 ![Robot aprendiendo markdown](imagenes/gemini_robotLibro.jpg "Esto aparece si pasas el mouse por arriba de la imagen")  
 > Imagen generada por un modelo de IA de Google  
 
