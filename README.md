@@ -291,11 +291,13 @@ $$
 \sin\theta  & cos\theta   & 0 \\
 0           & 0           & 1 \\
 \end{bmatrix}
-=
+$$
+$$=$$
+$$
 \begin{bmatrix}
 \cos\phi\cos\theta  & -cos\phi\sin\theta  & 0\\
 \sin\theta  & cos\theta   & 0 \\
-\sin\phi\cos\theta & \sin\phi\sin\theta           & \cos\phi \\
+\sin\phi\cos\theta           & \sin\phi\sin\theta           & \cos\phi \\
 \end{bmatrix}
 $$
 ```
@@ -321,12 +323,28 @@ $$
 \end{bmatrix}
 $$
 
+En algunos editores md es posible poner las ecuaciones de arriba en una sola línea reemplazando `$$=$$`por `=`, pero en el caso de GitHub no lo reconoce y es necesario colocar la igualdad debajo.
+
 ```
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:  
 $$ R_{z,θ}.R_{y,Φ} = R' $$
 ```
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:
 $$ R_{z,θ}.R_{y,Φ} = R' $$
+
+## Fracciones 
+$$1/2 = 8/\cos\theta$$
+## Raices
+```
+$$\sqrt{2-2i}$$
+```
+$$\sqrt{2-2i}$$
+
+```
+$$^3\sqrt{2-2i}$$
+```
+$$^3\sqrt{2-2i}$$
+
 
 # 📝 Licencia
 
