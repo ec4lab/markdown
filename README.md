@@ -71,7 +71,7 @@ Para citas se utiliza ">" al inicio de la cita
 > muy famoso
 
 
-# 🖼️ Imagenes
+# 🖼️ Imágenes
 * Se tiene que indicar el texto que aparece si la imagen no se encuentra,  
 * el link a la imagen, (puede ser dentro del repo o web) 
 * y un texto descriptivo que se muestra cuando se pasa el mouse por arriba  
@@ -130,7 +130,7 @@ C:\Users\VsCode\Programas\ejemplo_git
 C:\Users\VsCode\Programas\ejemplo_git
 ```
 ## Lenguaje del código
-Podemos indicar el tipo de código inmediatamente después de los 3 " `" superirores:
+Podemos indicar el tipo de código inmediatamente después de los 3 " `" superiores:
 
 ### Código en consola (bash):  
 
@@ -300,7 +300,7 @@ $$
 $$
 ```
 
-$$
+$$  
 \begin{bmatrix}
 \cos\phi  & 0  & sin\phi\\
 0           & 1  & 0 \\
@@ -318,6 +318,7 @@ $$
 \sin\phi\cos\theta           & \sin\phi\sin\theta           & \cos\phi \\
 \end{bmatrix}
 $$
+
 ```
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:  
 $$ R_{z,θ}.R_{y,Φ} = R' $$
