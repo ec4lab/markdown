@@ -152,7 +152,9 @@ Para citas se utiliza ">" al inicio de la cita
 <img src="imagenes/gemini_robotLibro.jpg" alt="Ejemplo Imagen" width="100">
 </details>
 <br/>
+
 # 🖼️ Imágenes
+
 * Se tiene que indicar el texto que aparece si la imagen no se encuentra,  
 * el link a la imagen, (puede ser dentro del repo o web) 
 * y un texto descriptivo que se muestra cuando se pasa el mouse por arriba  
@@ -177,6 +179,19 @@ Para citas se utiliza ">" al inicio de la cita
 ```
 [![Robot GitHub](imagenes/gemini_robotPC.jpg "Visita nuestro GitHub!")](https://github.com/ec4lab/LandPAge)  
 > Imagen generada por un modelo de IA de Google 
+
+## Se puede dar forlamto con `html`
+
+```
+<p align="center">
+<img src="imagenes/gemini_robotPC.jpg" width="100" border="10"/>
+</p>
+
+```
+
+<p align="center">
+<img src="imagenes/gemini_robotPC.jpg" width="100" border="10"/>
+</p>
 
 # 📏 Líneas  
 
