@@ -302,20 +302,22 @@ $$
 
 $$
 \begin{bmatrix}
-\\cos\phi&0&sin\phi\\
-\\0&1&0\\
-\\-sin\phi&0&\cos\phi\\
+\cos\phi  & 0  & sin\phi\\
+0           & 1  & 0 \\
+-\sin\phi  & 0  & \cos\phi\\
 \end{bmatrix}
 \begin{bmatrix}
-\\cos\theta&-sin\theta&0\\
-\\sin\theta& cos\theta&0\\
-\\0&0&1\\
+\cos\theta  & -sin\theta  & 0\\
+\sin\theta  & cos\theta   & 0 \\
+0           & 0           & 1 \\
 \end{bmatrix}
-=
+$$
+$$=$$
+$$
 \begin{bmatrix}
-\\cos\phi\cos\theta&-cos\phi\sin\theta&0\\
-\\sin\theta&cos\theta&0\\
-\\sin\phi\cos\theta&\sin\phi\sin\theta&\cos\phi\\
+\cos\phi\cos\theta  & -cos\phi\sin\theta  & 0\\
+\sin\theta  & cos\theta   & 0 \\
+\sin\phi\cos\theta           & \sin\phi\sin\theta           & \cos\phi \\
 \end{bmatrix}
 $$
 
