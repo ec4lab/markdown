@@ -482,7 +482,19 @@ mas ejemplos: [github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e
 
 Emoticonos: [emojikeyboard.top](https://emojikeyboard.top/es/)
 
-## A otros archivos dentro del repositorio
+## A otros títulos dentro del repositorio
+```
+[Resaltar Texto](#%EF%B8%8F-resaltar-texto)
+```
+[Resaltar Texto](#%EF%B8%8F-resaltar-texto)
+
+## A títulos específicos en otros repositorios
+```
+[instalar VSCode en ubuntu](https://github.com/ec4lab/ubuntu?tab=readme-ov-file#instalar-vscode)
+
+```
+[instalar VSCode en ubuntu](https://github.com/ec4lab/ubuntu?tab=readme-ov-file#instalar-vscode)
+
 
 
 # Corrección de ortografía
