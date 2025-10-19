@@ -467,6 +467,7 @@ $$^3\sqrt{2-2i}$$
 
 # 📫 Hipervínculos
 
+## A sitios web
 ```
 Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com  
 Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)
@@ -480,6 +481,20 @@ Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.c
 mas ejemplos: [github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110)
 
 Emoticonos: [emojikeyboard.top](https://emojikeyboard.top/es/)
+
+## A otros archivos dentro del repositorio
+
+
+# Corrección de ortografía
+Si escribes tus merkdowns dentro de VSCode, notarás que no se destacan los errores ortográficos, pero podemos solucionarlo instalando la extensión `Code Spell Checker`, y también la espececífica de tu idioma, en el mio `Spanish - Code Spell Checker`
+![Code Spell Checker](imagenes/CodeSpellChecker.png "Extensión Code Spell Checker en VSCode")  
+
+Luego agregar en el `settings.json`:
+
+```json
+"cSpell.language": "es,en"
+```
+
 
 # 📝 Licencia
 
