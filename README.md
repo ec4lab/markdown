@@ -498,10 +498,10 @@ Emoticonos: [emojikeyboard.top](https://emojikeyboard.top/es/)
 
 
 # Corrección de ortografía
-Si escribes tus merkdowns dentro de VSCode, notarás que no se destacan los errores ortográficos, pero podemos solucionarlo instalando la extensión `Code Spell Checker`, y también la espececífica de tu idioma, en el mio `Spanish - Code Spell Checker`
+Si escribes tus markdowns dentro de VSCode, notarás que no se destacan los errores ortográficos, pero podemos solucionarlo instalando la extensión `Code Spell Checker`, y también la específica de tu idioma, en el mio `Spanish - Code Spell Checker`
 ![Code Spell Checker](imagenes/CodeSpellChecker.png "Extensión Code Spell Checker en VSCode")  
 
-Luego agregar en el `settings.json`:
+Luego agregar en el [`settings.json`](https://github.com/ec4lab/ubuntu#personalizar-settingsjson):
 
 ```json
 "cSpell.language": "es,en"
@@ -509,6 +509,8 @@ Luego agregar en el `settings.json`:
 
 
 # 📝 Licencia
+
+Siempre que hagas un repositorio público es recomendable que elijas con que tipo de licencia quieres hacerlo, aquí te dejo un repositorio de opciones administrado por github: [Choose a License](https://choosealicense.com/licenses/)
 
 Este proyecto está licenciado bajo la Licencia MIT.  
 Podés usar, copiar, modificar y distribuir el software libremente, siempre que incluyas el aviso de derechos de autor original.
