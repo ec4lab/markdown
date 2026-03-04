@@ -534,10 +534,10 @@ Emoticonos: [emojikeyboard.top](https://emojikeyboard.top/es/)
 ### A otros títulos dentro del repositorio
 
 ```text
-[Resaltar Texto](resaltar-texto)
+[Resaltar Texto](#resaltar-texto)
 ```
 
-[Resaltar Texto](resaltar-texto)
+[Resaltar Texto](#resaltar-texto)
 
 ### A títulos específicos en otros repositorios
 
