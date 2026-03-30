@@ -91,6 +91,51 @@ a<sup>super indice</sup>
 <code>Resaltado</code>  
 `Resaltado`
 
+## Alertas
+
+```text
+Consejo:
+> [!TIP]  
+> Esto es un consejo
+
+importante:
+> [!IMPORTANT]  
+> Esto es importante  
+
+Advertencia
+> [!WARNING]  
+> Esto es una advertencia
+
+Notas:
+> [!NOTE]
+> Acá va una nota
+
+Cuidado:
+> [!CAUTION]
+> Hay que tener cuidado con esto
+
+```
+
+Consejo:
+> [!TIP]  
+> Esto es un consejo
+
+importante:
+> [!IMPORTANT]  
+> Esto es importante  
+
+Advertencia
+> [!WARNING]  
+> Esto es una advertencia
+
+Notas:
+> [!NOTE]
+> Acá va una nota
+
+Cuidado:
+> [!CAUTION]
+> Hay que tener cuidado con esto
+
 ## Citas
 
 Para citas se utiliza ">" al inicio de la cita  
