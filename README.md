@@ -500,22 +500,22 @@ $$
 
 $$
 \begin{bmatrix}
-\cosΦ  & 0  & sinΦ\\
+\cos\Phi  & 0  & \sin\Phi\\
 0           & 1  & 0 \\
--\sinΦ  & 0  & \cosΦ\\
+-\sin\Phi  & 0  & \cos\Phi\\
 \end{bmatrix}
 \begin{bmatrix}
-\cosΘ  & -sinΘ  & 0\\
-\sinΘ  & cosΘ   & 0 \\
+\cos\Theta  & -\sin\Theta  & 0\\
+\sin\Theta  & \cos\Theta   & 0 \\
 0           & 0           & 1 \\
 \end{bmatrix}
 $$
 $$=$$
 $$
 \begin{bmatrix}
-\cosΦ\cosΘ  & -cosΦ\sinΘ  & 0\\
-\sinΘ  & cosΘ   & 0 \\
-\sinΦ\cosΘ           & \sinΦ\sinΘ           & \cosΦ \\
+\cos\Phi\cos\Theta  & -\cos\Phi\sin\Theta  & 0\\
+\sin\Theta  & \cos\Theta   & 0 \\
+\sin\Phi\cos\Theta  & \sin\Phi\sin\Theta  & \cos\Phi \\
 \end{bmatrix}
 $$
 
