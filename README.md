@@ -473,44 +473,49 @@ $$ p^0 = R^0_1.p^1$$
 ```text
 $$
 \begin{bmatrix}
-\cos\phi  & 0  & sin\phi\\
+\cosΦ  & 0  & sinΦ\\
 0           & 1  & 0 \\
--\sin\phi  & 0  & \cos\phi\\
+-\sinΦ  & 0  & \cosΦ\\
 \end{bmatrix}
 \begin{bmatrix}
-\cos\theta  & -sin\theta  & 0\\
-\sin\theta  & cos\theta   & 0 \\
+\cosΘ  & -sinΘ  & 0\\
+\sinΘ  & cosΘ   & 0 \\
 0           & 0           & 1 \\
 \end{bmatrix}
 $$
 $$=$$
 $$
 \begin{bmatrix}
-\cos\phi\cos\theta  & -cos\phi\sin\theta  & 0\\
-\sin\theta  & cos\theta   & 0 \\
-\sin\phi\cos\theta           & \sin\phi\sin\theta           & \cos\phi \\
+\cosΦ\cosΘ  & -cosΦ\sinΘ  & 0\\
+\sinΘ  & cosΘ   & 0 \\
+\sinΦ\cosΘ           & \sinΦ\sinΘ           & \cosΦ \\
 \end{bmatrix}
 $$
+
+
+
+
+
 ```
 
 $$
 \begin{bmatrix}
-\cos\phi  & 0  & sin\phi\\
+\cosΦ  & 0  & sinΦ\\
 0           & 1  & 0 \\
--\sin\phi  & 0  & \cos\phi\\
+-\sinΦ  & 0  & \cosΦ\\
 \end{bmatrix}
 \begin{bmatrix}
-\cos\theta  & -sin\theta  & 0\\
-\sin\theta  & cos\theta   & 0 \\
+\cosΘ  & -sinΘ  & 0\\
+\sinΘ  & cosΘ   & 0 \\
 0           & 0           & 1 \\
 \end{bmatrix}
 $$
 $$=$$
 $$
 \begin{bmatrix}
-\cos\phi\cos\theta  & -cos\phi\sin\theta  & 0\\
-\sin\theta  & cos\theta   & 0 \\
-\sin\phi\cos\theta           & \sin\phi\sin\theta           & \cos\phi \\
+\cosΦ\cosΘ  & -cosΦ\sinΘ  & 0\\
+\sinΘ  & cosΘ   & 0 \\
+\sinΦ\cosΘ           & \sinΦ\sinΘ           & \cosΦ \\
 \end{bmatrix}
 $$
 
@@ -537,10 +542,10 @@ R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'
 ### Fracciones
 
 ```text
-$$1/2 = 8/\cos\theta$$
+$$1/2 = 8/\cosΘ$$
 ```
 
-$$1/2 = 8/\cos\theta$$
+$$1/2 = 8/\cosΘ$$
 
 ### Raíces
 
