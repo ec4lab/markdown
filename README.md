@@ -473,22 +473,22 @@ $$ p^0 = R^0_1.p^1$$
 ```text
 $$
 \begin{bmatrix}
-\cosΦ  & 0  & sinΦ\\
+\cos\Phi  & 0  & \sin\Phi\\
 0           & 1  & 0 \\
--\sinΦ  & 0  & \cosΦ\\
+-\sin\Phi  & 0  & \cos\Phi\\
 \end{bmatrix}
 \begin{bmatrix}
-\cosΘ  & -sinΘ  & 0\\
-\sinΘ  & cosΘ   & 0 \\
+\cos\Theta  & -\sin\Theta  & 0\\
+\sin\Theta  & \cos\Theta   & 0 \\
 0           & 0           & 1 \\
 \end{bmatrix}
 $$
 $$=$$
 $$
 \begin{bmatrix}
-\cosΦ\cosΘ  & -cosΦ\sinΘ  & 0\\
-\sinΘ  & cosΘ   & 0 \\
-\sinΦ\cosΘ           & \sinΦ\sinΘ           & \cosΦ \\
+\cos\Phi\cos\Theta  & -\cos\Phi\sin\Theta  & 0\\
+\sin\Theta  & \cos\Theta   & 0 \\
+\sin\Phi\cos\Theta  & \sin\Phi\sin\Theta  & \cos\Phi \\
 \end{bmatrix}
 $$
 
@@ -524,7 +524,7 @@ En algunos editores md es posible poner las ecuaciones de arriba en una sola lí
 ```text
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:  
 
-$$R_{z,θ}.R_{y,Φ}=R'$$
+$$R_{z,\Theta}.R_{y,\PhiΦ}=R'$$
 
 <p align="center">
 R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'
@@ -533,7 +533,7 @@ R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'
 
 El orden es importante si alteramos el orden de las rotaciones, la matriz resultante será diferente:  
 
-$$R_{z,θ}.R_{y,Φ}=R'$$
+$$R_{z,\Theta}.R_{y,\Phi}=R'$$
 
 <p align="center">
 R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'
@@ -542,10 +542,10 @@ R<sub>z,θ</sub>.R<sub>y,Φ</sub> = R'
 ### Fracciones
 
 ```text
-$$1/2 = 8/\cosΘ$$
+$$1/2 = 8/\cos\Theta$$
 ```
 
-$$1/2 = 8/\cosΘ$$
+$$1/2 = 8/\cos\Theta$$
 
 ### Raíces
 
