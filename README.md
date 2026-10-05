@@ -285,18 +285,11 @@ Para citas se utiliza ">" al inicio de la cita
     <a href="https://github.com/ec4lab/LandPage" target="_blank" rel="noopener noreferrer">
         <img src="imagenes/gemini_robotPC_2.jpg" alt="Robot Mirando PC" width="200" border="none"/>
     </a>
-    <figcaption align="center" style="margin-top: 10px; font-size: 14px; color: #555;">
-        Dos imagenes a la par con HTML
-    </figcaption>
+</p>
+<p align="center">
+  <sub>Dos Imagenes insertadas con HTML</sub>
 </p>
 ```
-
-<p align="center">
-  <a href="https://github.com/ec4lab/LandPage" target="_blank" rel="noopener noreferrer">
-    <img src="imagenes/gemini_robotPC.jpg" alt="Robot Mirando PC" width="300"/><br>
-    <sub>Imagen insertada con HTML</sub>
-  </a>
-</p>
 
 <p align="center">
     <!-- Primera Imagen -->
@@ -311,6 +304,7 @@ Para citas se utiliza ">" al inicio de la cita
 <p align="center">
   <sub>Dos Imagenes insertadas con HTML</sub>
 </p>
+
 #### Imagenes dentro de tablas
 
 ```text
