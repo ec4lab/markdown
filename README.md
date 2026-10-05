@@ -255,16 +255,75 @@ Para citas se utiliza ">" al inicio de la cita
 
 ### Se puede dar formato con `html`
 
+#### una imagen sola
+
 ```text
 <p align="center">
-<img src="imagenes/gemini_robotPC.jpg" alt="Robot Estudiando" width="100" border="10"/>
+<a href="https://github.com/ec4lab/LandPage" target="_blank" rel="noopener noreferrer">
+    <img src="gemini_robotPC.jpg" alt="Robot Mirando PC" width="300" border="none"/>
+</a>
+<figcaption align="center" style="margin-top: 0px; font-size: 14px; color: #555;">
+Imagen insertada con HTML
+</figcaption>
 </p>
-
 ```
 
 <p align="center">
-<img src="imagenes/gemini_robotPC.jpg" alt="Robot Estudiando" width="100" border="10"/>
+<a href="https://github.com/ec4lab/LandPage" target="_blank" rel="noopener noreferrer">
+    <img src="imagenes/gemini_robotPC.jpg" alt="Robot Mirando PC" width="300" border="none"/>
+</a>
+<figcaption align="center" style="margin-top: 0px; font-size: 14px; color: #555;">
+Imagen insertada con HTML
+</figcaption>
 </p>
+
+#### Dos imagenes a la par
+
+```text
+<p align="center">
+    <!-- Primera Imagen -->
+    <a href="https://github.com/ec4lab/LandPage" target="_blank" rel="noopener noreferrer">
+        <img src="imagenes/gemini_robotPC_1.jpg" alt="Robot Mirando PC" width="200" border="none" style="margin-right: 10px;"/>
+    </a>
+    <!-- Segunda Imagen -->
+    <a href="https://github.com/ec4lab/LandPage" target="_blank" rel="noopener noreferrer">
+        <img src="imagenes/gemini_robotPC_2.jpg" alt="Robot Mirando PC" width="200" border="none"/>
+    </a>
+    <figcaption align="center" style="margin-top: 10px; font-size: 14px; color: #555;">
+        Dos imagenes a la par con HTML
+    </figcaption>
+</p>
+```
+
+<p align="center">
+    <!-- Primera Imagen -->
+    <a href="https://github.com/ec4lab/LandPage" target="_blank" rel="noopener noreferrer">
+        <img src="imagenes/gemini_robotPC_1.jpg" alt="Robot Mirando PC" width="200" border="none" style="margin-right: 10px;"/>
+    </a>
+    <!-- Segunda Imagen -->
+    <a href="https://github.com/ec4lab/LandPage" target="_blank" rel="noopener noreferrer">
+        <img src="imagenes/gemini_robotPC_2.jpg" alt="Robot Mirando PC" width="200" border="none"/>
+    </a>
+    <figcaption align="center" style="margin-top: 10px; font-size: 14px; color: #555;">
+        Dos imagenes a la par con HTML
+    </figcaption>
+</p>
+
+#### Imagenes dentro de tablas
+
+```text
+|TIPO|Modelo 1|Modelo 2|
+|--|--|--|
+|Rango|X|Y|
+|Modelo|00001|00002|
+|Imagen|<img src="imagenes/gemini_robotPC_1.jpg" width="150" alt="Motor"/>|<img src="imagenes/gemini_robotPC_2.jpg" width="150" alt="Motor"/>|
+```
+
+|TIPO|Modelo 1|Modelo 2|
+|--|--|--|
+|Rango|X|Y|
+|Modelo|00001|00002|
+|Imagen|<img src="imagenes/gemini_robotPC_1.jpg" width="150" alt="Motor"/>|<img src="imagenes/gemini_robotPC_2.jpg" width="150" alt="Motor"/>|
 
 ## Líneas  
 
@@ -566,14 +625,14 @@ $$^3\sqrt{2-2i}$$
 ### A sitios web
 
 ```text
-Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com  
+Muchos ejemplos que se ven aquí fueron tomados de tutorialmarkdown.com  
 
 Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)  
 Más ejemplos:[Github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110
 Documentación Oficial [Escribir en github](https://docs.github.com/es/get-started/writing-on-github)
 ```
 
-Muchos ejemplos que se ven aquí fueron tomados de tutotialmarkdown.com
+Muchos ejemplos que se ven aquí fueron tomados de tutorialmarkdown.com
 
 Tutorial sintaxis de Markdown: [tutorialmarkdown.com](https://tutorialmarkdown.com/sintaxis)  
 mas ejemplos: [github-Markdown.md](https://gist.github.com/nikhilnayyar002/7a35e653d3d590e317c829243e73b110)  
